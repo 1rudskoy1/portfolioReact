@@ -1,0 +1,70 @@
+.navigation {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+}
+.navigation-logo {
+  color: #fafbff;
+  position: relative;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-family: "Helvetica";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navigation-logo__point {
+  display: inline-table;
+  font-size: 30px;
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  bottom: 3px;
+  right: -8px;
+  background-color: #fafbff;
+  border-radius: 50%;
+}
+.nav-list a {
+  text-decoration: none;
+}
+.nav-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f9fafb;
+  position: relative;
+}
+.nav-item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 16px;
+  width: 18px;
+  left: -24px;
+  background-image: url(../../assets/Iconheart.svg);
+  top: 13px;
+  opacity: 0;
+  transition-duration: 0.5s;
+  transform: rotate(180deg);
+}
+.nav-item:hover:before {
+  opacity: 1;
+  top: 3px;
+  transform: rotate(360deg);
+}
+.nav-item div img {
+  width: 100px;
+  height: 45px;
+}
