@@ -1,0 +1,64 @@
+.slider-wrap {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 45px;
+}
+.slider-up {
+  position: relative;
+  display: -webkit-box;
+  height: 50vh;
+}
+.slider-up-container {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+}
+.slider-up-container img,
+.slider-down-container img {
+  width: 300px;
+  max-width: 500px;
+}
+.slider-down-container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.slider-up-container__text {
+  max-width: 700px;
+  width: 100%;
+  font-family: "SF Pro";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fafbff;
+}
+.slider-down {
+  display: -webkit-box;
+  position: relative;
+  height: 260px;
+  transition: 2s;
+}
+.slider-down-arrays {
+  display: flex;
+  justify-content: space-around;
+}
+.array-left {
+  transform: rotate(180deg);
+}
+.slider-down-arrays__array svg {
+  display: block;
+  width: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 7px 15px 2px 21px;
+  border-radius: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+  fill: white;
+}
+.slider-down-arrays__array svg:hover {
+  opacity: 0.6;
+}

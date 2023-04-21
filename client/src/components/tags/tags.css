@@ -1,0 +1,66 @@
+.header-under {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-under-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-under-head {
+  font-family: "New York";
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 61px;
+  color: #fafbff;
+  margin-bottom: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-under-links {
+  display: flex;
+  justify-content: space-between;
+}
+.header-under-link {
+  display: flex;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 590;
+  font-size: 13.1166px;
+  line-height: 66px;
+  display: flex;
+  align-items: center;
+  color: #f3f4f6;
+  align-items: center;
+  cursor: pointer;
+}
+.header-under-link svg {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #f3f4f6;
+}
+.header-under-tags {
+  display: flex;
+  flex-direction: column;
+}
+.header-under-tags-wrap {
+  display: flex;
+}
+.header-under-tags__tag {
+  text-align: center;
+  padding: 10.9305px;
+  background: #181818;
+  width: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #f3f4f6;
+}
+.header-under-tags__time {
+  font-weight: 590;
+  font-size: 12px;
+  line-height: 61px;
+  color: #fafbff;
+  text-align: end;
+}
