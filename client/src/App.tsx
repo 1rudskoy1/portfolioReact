@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 import Main from './layout/main/Main';
 import About from './layout/about/About';
 import Navigation from './components/navigation/Navigation';
+import Blog from './layout/blog/Blog';
+import Footer from './components/footer/Footer';
 import './index.css'
 
 function App() {
@@ -11,9 +13,11 @@ function App() {
       <Navigation/>
               <Routes>
                   <Route path = "/" element = {<Main/>}></Route>
-                  <Route path = "/about" element = {<About/>}></Route>
+                  <Route path = "/api/about" element = {<About/>}></Route>
+                  <Route path = "/api/blog" element = {<Blog/>}></Route>
               </Routes>
-        </BrowserRouter>
+          <Footer/> 
+    </BrowserRouter>
   );
 }
 

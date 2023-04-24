@@ -1,0 +1,96 @@
+body {
+  font-family: "SF Pro", serif;
+}
+.about__header {
+  font-family: "New York";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 105px;
+  color: #f9fafb;
+}
+.about-resume {
+  background-color: #181818;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 130px;
+}
+.about-resume__button {
+  margin: 0 auto;
+  padding: 12px 0;
+}
+.about-resume__button svg {
+  width: 23px;
+  height: 21px;
+  fill: white;
+}
+.about-resume__head {
+  font-size: 19.964px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.about-me {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.about-me__text {
+  max-width: 600px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fafbff;
+}
+.about-me__img img {
+  max-width: 500px;
+  max-height: 700px;
+}
+
+.about-me::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  max-width: 1295px;
+  border: 1px solid white;
+  top: -50px;
+}
+.works-space {
+  font-weight: 400;
+  color: rgba(250, 251, 255, 0.6);
+}
+.work-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.skills__skill {
+  text-transform: uppercase;
+}
+.work-space__header {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fafbff;
+}
+.work-info {
+  max-width: 500px;
+}
+.work-info__text {
+  font-size: 20px;
+  line-height: 27px;
+}
+.work-info__date {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fafbff;
+}
