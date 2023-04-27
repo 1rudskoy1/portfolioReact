@@ -5,7 +5,7 @@ function About() {
     <>
     <div className='container'>
       <div className='about'>
-        <h2 className='about__header'>About me</h2>
+        <h2 className='about__header section__header'>About me</h2>
       </div>
       <div className='about-resume'>
         <div className='about-resume__button'>
@@ -13,7 +13,7 @@ function About() {
           <span className='about-resume__head'>Resume</span>
         </div>
       </div>
-      <div className='about-me'>
+      <div className='about-me section__container'>
         <div className='about-me__text'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra, nibh sed sit. Blandit proin eget nulla sit congue nulla. Pellentesque aliquam pretium adipiscing eget semper tincidunt. Tellus pretium sed fermentum, urna. Vitae, cras aliquet tempus viverra neque quis suscipit leo sit. Risus viverra ornare rhoncus pharetra dolor urna magna. Justo natoque eu at nisl ullamcorper. Gravida sit dignissim sollicitudin rhoncus, elit.
 

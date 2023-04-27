@@ -1,7 +1,7 @@
 body {
   font-family: "SF Pro", serif;
 }
-.about__header {
+.section__header {
   font-family: "New York";
   font-style: normal;
   font-weight: 400;
@@ -34,9 +34,11 @@ body {
 }
 .about-me {
   display: flex;
-  position: relative;
   justify-content: space-between;
   margin-bottom: 50px;
+}
+.section__container {
+  position: relative;
 }
 .about-me__text {
   max-width: 600px;
@@ -50,7 +52,7 @@ body {
   max-height: 700px;
 }
 
-.about-me::before {
+.section__container::before {
   content: "";
   position: absolute;
   width: 100%;
