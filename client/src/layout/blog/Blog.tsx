@@ -1,6 +1,9 @@
 import React from 'react';
 import './blog.css'
 import Tags from '../../components/tags/Tags';
+import BlogItem from '../../components/blogItem/BlogItem';
+import data from '../../data';
+
 function Blog() {
   return (
     <div className='container'>
@@ -22,54 +25,9 @@ function Blog() {
       </header>
       <div className='section__container'>
         <div className='blog-items'>
-          <div className='blog-item'>
-            <div className='blog-item-info'>
-              <div className='blog-item__date'>Feb.2023</div>
-              <h3 className='blog-item-info__header'>Web3 solutions</h3>
-              <div className='blog-item-info__text'>
-                <span>I implement user interface design and solve user problems </span> with HTML, CSS AND Javascript. I have 2 years of making products that solve user problems and implementing responsive website. implement.
-              </div>
-              <button className='blog-item-info__link'>
-                www.website.com
-              </button>
-              <Tags/>
-            </div>
-            <div className='blog-item-img'>
-              <img src={'https://colorlib.com/wp-content/uploads/sites/2/endgam-free-template.jpg'} alt="" />
-            </div>
-          </div>
-          <div className='blog-item'>
-            <div className='blog-item-info'>
-              <div className='blog-item__date'>Feb.2023</div>
-              <h3 className='blog-item-info__header'>Web3 solutions</h3>
-              <div className='blog-item-info__text'>
-                <span>I implement user interface design and solve user problems </span> with HTML, CSS AND Javascript. I have 2 years of making products that solve user problems and implementing responsive website. implement.
-              </div>
-              <button className='blog-item-info__link'>
-                www.website.com
-              </button>
-              <Tags/>
-            </div>
-            <div className='blog-item-img'>
-              <img src={'https://colorlib.com/wp/wp-content/uploads/sites/2/techmag-free-template.jpg'} alt="" />
-            </div>
-          </div>
-          <div className='blog-item'>
-            <div className='blog-item-info'>
-              <div className='blog-item__date'>Feb.2023</div>
-              <h3 className='blog-item-info__header'>Web3 solutions</h3>
-              <div className='blog-item-info__text'>
-                <span>I implement user interface design and solve user problems </span> with HTML, CSS AND Javascript. I have 2 years of making products that solve user problems and implementing responsive website. implement.
-              </div>
-              <button className='blog-item-info__link'>
-                www.website.com
-              </button>
-              <Tags/>
-            </div>
-            <div className='blog-item-img'>
-              <img src={'https://colorlib.com/wp/wp-content/uploads/sites/2/dorne-directory-listing-free-template.jpg'} alt="" />
-            </div>
-          </div>
+          {data.map((item) => {
+            return (<BlogItem data ={item}/>)
+          })}
         </div>
       </div>
     </div>

@@ -1,0 +1,47 @@
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-item-info {
+  max-width: 450px;
+}
+.blog-item__date {
+  font-size: 12px;
+  line-height: 61px;
+  color: #fafbff;
+}
+.blog-item-img img {
+  max-width: 500px;
+}
+
+.blog-item-info__header {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 61px;
+  color: #fafbff;
+  margin-bottom: 10px;
+}
+
+.blog-item-info__text {
+  font-family: "SF Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(250, 251, 255, 0.6);
+  margin-bottom: 15px;
+}
+.blog-item-info__text span {
+  color: rgba(250, 251, 255, 1);
+}
+.blog-item-info__link {
+  width: 145px;
+  height: 34px;
+  text-decoration: underline;
+  background: #181818;
+  color: #fafbff;
+  border-radius: 49.0566px;
+  border: none;
+  margin-bottom: 25px;
+  cursor: pointer;
+}

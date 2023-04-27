@@ -4,3 +4,9 @@
 .footer-nav-item {
   opacity: 0.7;
 }
+.nav-item_email {
+  font-size: 12px;
+  opacity: 0.4;
+  cursor: pointer;
+  text-decoration: underline !important;
+}

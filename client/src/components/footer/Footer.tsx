@@ -26,6 +26,9 @@ function Footer() {
                     About
                 </li>
             </NavLink>
+                <a className='footer-nav-item nav-item nav-item_email' target='blank' href="mailto:ganiev.rystam@gmail.com">
+                    ganiev.rystam@gmail.com
+                </a>
             </ul>
         </nav>
     </footer>
